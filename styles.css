@@ -8,9 +8,9 @@ body {
 
 #openingBlock {
   display:flex;
-  height: 80vh;
+  height: 60vh;
   align-items: center;
-  padding-left: 110px;
+  padding-left: 80px;
 }
 
 #nameSearch {
@@ -40,7 +40,7 @@ body {
 }
 
 .header {
-  padding: 5px 16px;
+  padding: 5px 50px;
   background: lightgray;
   color: gray;
 }
@@ -59,7 +59,11 @@ body {
   padding-top: 102px;
 }
 
-#filler {
-  height: 2000px;
+.output {
+  height: 9vw;
+  border-style:solid;
+  padding: 25px;
+  border-color:white;
+  font-size: 20px;
 }
 
