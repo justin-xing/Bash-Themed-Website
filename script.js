@@ -30,13 +30,13 @@ function ls () {
 
 function cd (s) {
   if (s === 'about') {
-    window.location.href = "about.html";
+    window.location.href = "pages/about.html";
   } else if (s === 'resume') {
-    window.location.href = "resume.html";
+    window.location.href = "pages/resume.html";
   } else if (s === 'projects') {
-    window.location.href = "projects.html";
+    window.location.href = "pages/projects.html";
   } else if (s === 'myCat') {
-    window.location.href = "myCat.html";
+    window.location.href = "pages/myCat.html";
   }
   search.value = '';
 }
