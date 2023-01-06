@@ -10,6 +10,7 @@ body {
   display:flex;
   height: 80vh;
   align-items: center;
+  padding-left: 110px;
 }
 
 #nameSearch {
@@ -18,9 +19,9 @@ body {
 }
 
 .name {
-  font-size: 7vw;
+  font-size: 5vw;
   flex: 1 1 auto;
-  min-width: 50vw;
+  min-width: 38vw;
 }
 
 .search {
@@ -29,7 +30,7 @@ body {
   border-style: none;
   color:white;
   font-size: 5vw;
-  max-width: 36vw;
+  max-width: 44vw;
 }
 
 ::placeholder {
