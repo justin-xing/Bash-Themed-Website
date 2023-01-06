@@ -40,9 +40,14 @@ body {
 }
 
 .header {
-  padding: 5px 50px;
+  padding: 10px 50px;
   background: lightgray;
+}
+
+.headerLink {
+  text-decoration:none;
   color: gray;
+  font-size: 20px;
 }
 
 .content {

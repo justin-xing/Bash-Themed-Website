@@ -22,9 +22,18 @@ function stickyHeader() {
 
 // Functions to be called upon input text + enter press
 let output = document.querySelector('.output');
+const lineOne = document.createElement('div');
+lineOne.textContent = 'Use cd to navigate webpages (ex. "cd about").';
+const lineTwo = document.createElement('div');
+lineTwo.textContent = 'Webpages: about resume projects interests myCat';
+const lineThree = document.createElement('div');
+lineThree.textContent = 'Note: Go back to the terminal by clicking the header.'
 
 function ls () {
-  output.textContent = 'Try typing cd with one of these (ex. "cd about"): about resume projects interests myCat';
+  output.textContent = '';
+  output.appendChild(lineOne);
+  output.appendChild(lineTwo);
+  output.appendChild(lineThree);
   search.value = '';
 }
 
