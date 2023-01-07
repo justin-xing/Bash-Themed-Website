@@ -52,6 +52,7 @@ function cd (s) {
 
 function clear() {
   output.textContent = '';
+  search.value = '';
 }
 
 // Executing functions upon text input + enter press
