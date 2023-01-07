@@ -69,10 +69,9 @@ body {
   border-style:solid;
   padding: 25px;
   border-color:white;
-  font-size: 20px;
+  font-size: 2vw;
 }
 
 .output > div {
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin: 5px;
 }
