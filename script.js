@@ -50,6 +50,10 @@ function cd (s) {
   search.value = '';
 }
 
+function clear() {
+  output.textContent = '';
+}
+
 // Executing functions upon text input + enter press
 
 function readTextInput () {
@@ -57,7 +61,9 @@ function readTextInput () {
     cd(inputText.substring(3));
   } else if (inputText.substring(0, 2) === 'ls') {
     ls();
-  } else {
+  } else if (inputText.substring(0, 5) === 'clear') {
+    clear();
+  }else {
     output.textContent = 'Enter a valid input! Try ls!'
   }
 }
