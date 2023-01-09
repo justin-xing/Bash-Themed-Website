@@ -7,15 +7,17 @@ body {
 }
 
 #openingBlock {
-  display:flex;
-  height: 60vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  padding-left: 80px;
+  justify-content: center;
 }
 
 #nameSearch {
   display: flex;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 .name {
@@ -65,7 +67,8 @@ body {
 }
 
 .output {
-  height: 9vw;
+  height: 20vh;
+  width: 80vw;
   border-style:solid;
   padding: 25px;
   border-color:white;
@@ -76,12 +79,13 @@ body {
   margin: 5px;
 }
 
-/* Styling about.html */
+/* Styling about section */
 
 .heading {
   text-align: center;
   font-size: 10vh;
   margin: 30px;
+  padding-top: 40px;
 }
 
 .cropped {
@@ -97,9 +101,28 @@ body {
   margin: -110px 0 0 -40px;
 }
 
+#about {
+  height: 100vh;
+}
+
 .text {
-  font-size: 2vh;
-  margin: 30px 100px 30px 100px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  text-align: center;
+  width: 60vw;
+}
+
+p > a {
+  color: aqua;
+}
+
+/* styling my projects */
+#projects {
+  height: 100vh;
 }
 
 /* styling myCat.html */

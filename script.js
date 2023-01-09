@@ -39,13 +39,13 @@ function ls () {
 
 function cd (s) {
   if (s === 'about') {
-    window.location.href = "pages/about.html";
+    document.getElementById('about').scrollIntoView({ behavior: 'smooth', block: 'center' });
   } else if (s === 'resume') {
-    window.location.href = "pages/resume.html";
+    document.getElementById('resume').scrollIntoView({ behavior: 'smooth', block: 'center' });
   } else if (s === 'projects') {
-    window.location.href = "pages/projects.html";
+    document.getElementById('projects').scrollIntoView({ behavior: 'smooth', block: 'center' });
   } else if (s === 'myCat') {
-    window.location.href = "pages/myCat.html";
+    document.getElementById('myCat').scrollIntoView({ behavior: 'smooth', block: 'center' });
   }
   search.value = '';
 }
