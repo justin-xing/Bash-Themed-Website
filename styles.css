@@ -75,3 +75,29 @@ body {
 .output > div {
   margin: 5px;
 }
+
+/* Styling about.html */
+
+.heading {
+  text-align: center;
+  font-size: 10vh;
+  margin: 30px;
+}
+
+.cropped {
+  height: 40vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.cropped img {
+  height: 60vh;
+  margin: -110px 0 0 -40px;
+}
+
+.text {
+  font-size: 2vh;
+  margin: 30px 100px 30px 100px;
+}
