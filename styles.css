@@ -101,3 +101,87 @@ body {
   font-size: 2vh;
   margin: 30px 100px 30px 100px;
 }
+
+/* styling myCat.html */
+
+.images {
+  display: flex;
+  margin: 50px;
+  max-width: 80vw;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.imagesTwo {
+  display: flex;
+  margin: 50px;
+  max-width: 80vw;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.catStare {
+  width: 20vw;
+  height: 20vw;
+}
+
+.catStare img {
+  width: 20vw;
+  height: auto;
+  margin: -8vw 0 0 0;
+}
+
+.catSit {
+  width: 20vw;
+  height: 20vw;
+}
+
+.catSit img {
+  width: 20vw;
+  height: auto;
+  margin: -8vw 0 0 0;
+}
+
+.catFunny {
+  width: 20vw;
+  height: 20vw;
+}
+
+.catFunny img {
+  width: 20vw;
+  height: auto;
+  margin: -8vw 0 0 0;
+}
+
+.catToilet {
+  width: 20vw;
+  height: 20vw;
+}
+
+.catToilet img {
+  width: 20vw;
+  height: auto;
+  margin: -8vw 0 0 0;
+}
+
+.catSnake {
+  width: 20vw;
+  height: 20vw;
+}
+
+.catSnake img {
+  width: 20vw;
+  height: auto;
+  margin: -8vw 0 0 0;
+}
+
+.catInside {
+  width: 20vw;
+  height: 20vw;
+}
+
+.catInside img {
+  width: 20vw;
+  height: auto;
+  margin: -6vw 0 0 0;
+}
