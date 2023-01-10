@@ -20,14 +20,26 @@ function stickyHeader() {
   }
 }
 
+// Returning user to terminal upon clicking header text
+const terminalButton = document.querySelector('.headerLink');
+
+function terminalScroll () {
+  document.querySelector('body').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+terminalButton.addEventListener('click', terminalScroll);
+
 // Functions to be called upon input text + enter press
 let output = document.querySelector('.output');
 const lineOne = document.createElement('div');
 lineOne.textContent = 'Use cd to navigate webpages (ex. "cd about").';
 const lineTwo = document.createElement('div');
-lineTwo.textContent = 'Webpages: about resume projects interests myCat';
+lineTwo.textContent = 'about projects myCat';
+lineTwo.style.fontWeight = 'bold';
+lineTwo.style.fontSize = '3vw';
+lineTwo.style.margin = '10px 0';
 const lineThree = document.createElement('div');
-lineThree.textContent = 'Note: Go back to the terminal by clicking the header.'
+lineThree.textContent = 'and click the header text to return to terminal';
 
 function ls () {
   output.textContent = '';

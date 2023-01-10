@@ -47,9 +47,10 @@ body {
 }
 
 .headerLink {
-  text-decoration:none;
+  background-color: lightgray;
   color: gray;
   font-size: 20px;
+  border: none;
 }
 
 .content {
@@ -93,7 +94,7 @@ body {
   overflow: hidden;
   display: flex;
   justify-content: center;
-  margin: 30px;
+  margin: 15px;
 }
 
 .cropped img {
@@ -120,9 +121,39 @@ p > a {
   color: aqua;
 }
 
+#socials {
+  height: 8vh;
+  overflow: hidden;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.github {
+  height: 50px;
+  background-color:white;
+  border-radius: 50%;
+}
+
+.linkedin {
+  height: 50px;
+  background-color:white;
+  border-radius: 20%;
+}
+
 /* styling my projects */
 #projects {
-  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.terminalImg img {
+  width: 60vw;
+  border-style: solid;
+  border-color: lightgray;
 }
 
 /* styling myCat.html */
