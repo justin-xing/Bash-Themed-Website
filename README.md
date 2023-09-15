@@ -1,3 +1,3 @@
-# personal-website
+# Bash Themed Website
 
-Version 1 of my personal website
+My first iteratiion of personal website, designed to mimix the Bash terminal that I love to use!
